@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "GameScoreApp",
+    "slug": "GameScoreApp",
+    "version": "1.0.0",
+    "entryPoint": "./app/index.tsx",
+    "orientation": "portrait",
+    "icon": "./app/assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./app/assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.velasco.gamescoreapp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./app/assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b5f53c70-14d9-455f-9fe8-3bcc8ccce8e4"
+      }
+    }
+  }
+}
