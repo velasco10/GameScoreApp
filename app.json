@@ -17,7 +17,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.velasco.gamescoreapp",
+      "package": "com.velascopro.gamescore",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./app/assets/images/icon.png",
