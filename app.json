@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "GameScoreApp",
-    "slug": "GameScoreApp",
+    "name": "ScoreQuest",
+    "slug": "scorequest",
     "version": "1.0.0",
     "entryPoint": "./app/index.tsx",
     "orientation": "portrait",
     "icon": "./app/assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "scorequest",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./app/assets/images/icon.png",
@@ -17,7 +17,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.velascopro.gamescore",
+      "package": "com.velascode.scorequest",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./app/assets/images/icon.png",
@@ -35,9 +35,13 @@
     "experiments": {
       "typedRoutes": true
     },
+    "owner": "velascode",
     "extra": {
+      "router": {
+        "origin": false
+      },
       "eas": {
-        "projectId": "b5f53c70-14d9-455f-9fe8-3bcc8ccce8e4"
+        "projectId": "c567d70d-cf70-48b3-a724-bf63fda4171b"
       }
     }
   }
